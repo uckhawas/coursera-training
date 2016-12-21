@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
-    <title>First assigment</title>
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>First Angular application</title>
 </head>
-<body>
-<h1>hello world. Student very excited to do this course.</h1>
+<body ng-app="Namecalculator">
+<h2>My first Angular App. Name Calculator:</h2>
+<div ng-controller="Namecalculatorcontroller">
+    <!--{{name}}
+    {{sayhey()}}-->
+    <div>
+    Your Name:
+    <input type="text" ng-model="name" ng-keyup="Displaynumeric();"   >
+
+        <!--ng-model="name"
+    Inside my Input is:{{name}}-->
+    </div>
+    <div>Total numeric value of a person's name is:{{totalValue}}</div>
+
+</div>
 </body>
 </html>
