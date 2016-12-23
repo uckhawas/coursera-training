@@ -12,12 +12,12 @@
            $scope.ItemLimit=limit;
         }
         function CountItems(string) {
-            if((string.split(' ').length>=3) || (string.split(',').length>=3))
+            if((string.split(' ').length>3) || (string.split(',').length>3))
             {
-                return "Too much";
+                return "Too much!";
             }
             else{
-                return "Enjoy";
+                return "Enjoy!";
 
             }
         }
