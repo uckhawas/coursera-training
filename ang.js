@@ -5,7 +5,7 @@
 
     LunchCheckController.$inject = ['$scope'];
     function LunchCheckController($scope) {
-        $scope.name = "upali, Jenny, Henry, Harry";
+        $scope.name = "";
 
         $scope.CheckLimit =function () {
            var limit=CountItems($scope.name);
