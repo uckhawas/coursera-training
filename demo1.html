@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="msgapp">
+<head>
+    <meta charset="UTF-8">
+    <script src="angular.min.js"></script>
+    <script src="app2.js"></script>
+    <title>Angularjs</title>
+</head>
+<body >
+<h2>Expression and Interpolation</h2>
+<div ng-controller="msgcontroller">
+    {{name}} has a message for you <br>
+    {{mesg()}}
+    <div>
+        <button ng-click="feedup();">Feed upali</button>
+        <br>
+        <img ng-src="{{stateofbeing}}";>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -11,7 +11,7 @@
          $scope.Displaynumeric=function () {
              var Totalnamevalue=calnumericforstring($scope.name);
              $scope.totalValue=Totalnamevalue;
-             
+
          }
          function calnumericforstring(string) {
              var totstring=0;
@@ -23,5 +23,5 @@
          }
 
         });
-    
+
 })();

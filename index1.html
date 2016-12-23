@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="LunchCheck">
+<head>
+    <meta charset="UTF-8">
+    <script src="angular.min.js"></script>
+    <script src="ang.js"></script>
+    <title>First Assignment</title>
+</head>
+<body ng-controller="LunchCheckController">
+    <fieldset>
+        <legend>Lunch Itemes</legend>
+        <p>
+            <label>Food Items:</label>
+            <input type="text" ng-model="name" />
+            {{ItemLimit}}
+            <br><br>
+            <button ng-click="CheckLimit();">Check If Too Much</button>
+
+        </p>
+
+    </fieldset>
+
+</body>
+</html>
